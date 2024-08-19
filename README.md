@@ -2,14 +2,32 @@
 
 ## Introduct
 
-- 自制路由(不使用vue-router)
-- 使用 `teleport` 做全局對話框的練習
-- `scss` 
-- tailwindcss
-  - group練習
-  - 自定顏色
-  - 表單 email 校驗
+### 🔥自制路由(不使用vue-router)
 
+- `@/router/index.js`
+- `@/components/TheNav.vue`
+
+#### 另外一種寫法
+
+- `@/router/index-old.js`
+- `@/components/TheNav-old.vue`
+
+### tailwindcss
+
+- group練習
+- `tailwind.config.js` 自定顏色
+- `LoginView.vue` (表單 email 校驗)
+
+### 🔥自定組件(以後可以用)
+
+- `GlobalDialog.vue`(使用 `teleport` 做全局對話框的練習)
+- `TheFrom.vue`
+- `TheNav.vue`
+- `tailwinds.js`
+
+### 雜項
+
+- `scss`
 
 ## Project Setup
 
@@ -34,4 +52,3 @@ pnpm build
 ```sh
 pnpm lint
 ```
-"# vue-component" 
