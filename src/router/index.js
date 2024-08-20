@@ -1,4 +1,4 @@
-import Home from '@/views/Home.vue'
+import HomeView from '@/views/HomeView.vue'
 import StudentList from '@/views/StudentList.vue'
 import LoginView from '@/views/LoginView.vue'
 import { ref, computed } from 'vue'
@@ -13,7 +13,7 @@ const paths = {
 }
 
 const routes = {
-  [paths.home]: Home,
+  [paths.home]: HomeView,
   [paths.studentList]: StudentList,
   [paths.loginView]: LoginView
 }

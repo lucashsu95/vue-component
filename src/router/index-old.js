@@ -1,4 +1,4 @@
-import Home from '@/views/Home.vue'
+import HomeView from '@/views/HomeView.vue'
 import StudentList from '@/views/StudentList.vue'
 import LoginView from '@/views/LoginView.vue'
 import { ref, computed } from 'vue'
@@ -6,9 +6,9 @@ import { ref, computed } from 'vue'
 const currentPath = ref(window.location.pathname)
 
 const routes = {
-  '/': { component: Home, name: 'Home' },
-  '/student-list': { component: StudentList, name: 'StudentList' },
-  '/login-view': { component: LoginView, name: 'LoginView' }
+  '/': { component: HomeView, name: '首頁' },
+  '/student-list': { component: StudentList, name: '學生列表' },
+  '/login-view': { component: LoginView, name: '登入頁面' }
 }
 
 const paths = Object.fromEntries(Object.entries(routes).map(([path, { name }]) => [name, path]))
