@@ -8,6 +8,6 @@
 </template>
 
 <script setup>
-import TheNav from "./components/TheNav.vue";
-import { currentView } from "./router";
+import TheNav from './components/TheNav.vue'
+import { currentView } from './router'
 </script>
