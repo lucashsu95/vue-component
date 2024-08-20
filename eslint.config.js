@@ -1,5 +1,6 @@
 import globals from "globals";
 import pluginJs from "@eslint/js";
+// import pluginReact from 'eslint-plugin-react' // 在這裡使用的是vue所以先註解
 import pluginVue from "eslint-plugin-vue";
 import pluginPrettier from 'eslint-plugin-prettier';
 
