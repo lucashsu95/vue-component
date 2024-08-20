@@ -1,7 +1,9 @@
 <template>
   <div class="wraps flex-col">
     <TheNav />
-    <component :is="currentView" />
+    <keep-alive>
+      <component :is="currentView" />
+    </keep-alive>
   </div>
 </template>
 

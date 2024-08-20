@@ -28,6 +28,7 @@
 ### 雜項
 
 - `scss`
+- 使用`keep-alive`做緩存(可以用vue devtools看)
 
 ## Project Setup
 
