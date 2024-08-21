@@ -28,6 +28,10 @@ const navs = ref([
   {
     path: paths.loginView,
     name: '表單'
+  },
+  {
+    path: paths.articleView,
+    name: '文章'
   }
 ])
 </script>
