@@ -4,7 +4,7 @@ import vue from '@vitejs/plugin-vue'
 import tailwindcss from 'tailwindcss'
 
 export default defineConfig({
-  base: '/vue-component',
+  base: '/vue-component/',
   plugins: [vue(), tailwindcss()],
   resolve: {
     alias: {

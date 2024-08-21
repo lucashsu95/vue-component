@@ -10,7 +10,7 @@ const currentPath = ref(window.location.pathname)
 const baseUrl = '/vue-component'
 const paths = Object.fromEntries(
   Object.entries({
-    home: '',
+    home: '/',
     studentList: '/student-list',
     loginView: '/login-view',
     articleView: '/article'
